@@ -1,0 +1,69 @@
+// Place all the styles related to the Pages controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+
+/* Home Page */
+#home-hero {
+  .jumbotron {
+    background: url('https://stories-rails.herokuapp.com/assets/home-main-f39dde5d0be8697146db17314f8662f2.jpg') center no-repeat;
+    .container {
+      margin-top: 10rem;
+      h1 {
+        margin-bottom: 2rem;
+      }
+    }
+  }
+}
+
+#home-supporting {
+  .container {
+    margin-bottom: 2rem;
+  }
+}
+
+#home-secondary {
+  height: 25rem;
+  background: url('https://stories-rails.herokuapp.com/assets/home-secondary-afc0677adb14766e42df768244930249.jpg') center no-repeat;
+  background-size: cover;
+}
+
+#home-discover {
+  .container {
+    margin: 2rem auto;
+    h2 {
+      margin-bottom: 1rem;
+    }
+  }
+}
+
+/* About Page */
+#about-hero {
+  .jumbotron {
+    background: url('https://stories-rails.herokuapp.com/assets/about-main-5d7831840429815fe86338dd0b2918a8.jpg') center no-repeat;
+    .container {
+      margin-top: 5rem;
+    }
+  }
+}
+
+#about-signup {
+  height: 400px;
+  display: flex;
+  align-items: center;
+  .container {
+    p {
+      margin: 2rem 0;
+    }
+  }
+}
+
+/* Thanks Page */
+
+#thanks-hero {
+  .jumbotron {
+    background: url('https://stories-rails.herokuapp.com/assets/contact-main-9fb04617516938f849971735fed62270.jpg') center no-repeat;
+    .container {
+      margin-top: 7.5rem;
+    }
+  }
+}

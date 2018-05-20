@@ -1,0 +1,28 @@
+<main>
+
+  <section id="signup-hero">
+    <div class="jumbotron">
+      <div class="container">
+        <h1>Get the latest updates from Stories</h1>
+        <div class="row">
+          <div class="col-md-4 offset-md-4">
+            <%= form_for(@signup) do |form| %>
+            <div class="field">
+              <%= form.label "Name" %><br />
+              <%= form.text_field :name %>
+            </div>
+            <div class="field">
+              <%= form.label "Email" %><br />
+              <%= form.text_field :email %>
+            </div>
+            <div class="actions">
+              <%= form.submit "Join" %>
+            </div>
+            <% end %>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+</main>
